@@ -12,7 +12,7 @@ namespace AnimalCrossingApp
         public string FileName { get; set; }
 
         [JsonPropertyName("name")]
-        public Name Name { get; set; }
+        public VillagerName Name { get; set; }
 
         [JsonPropertyName("personality")]
         public string Personality { get; set; }
